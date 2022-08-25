@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    font-size: 2rem;
+}
+
+.navbar {
+    background-color: #0099ff;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 10px;
+}
+
+.main {
+    padding: 10px;
+    flex-grow: 1;
+}
+
+@media (max-width: 640px) {
+    body {
+        flex-direction: column-reverse;
+    }
+
+    .navbar {
+        flex-direction: row;
+    }
+}
