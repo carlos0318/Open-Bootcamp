@@ -16,26 +16,73 @@
   </head>
   <body>
     <div class="container pt-5">
-      <section class="bg-light p-5 rounded-3">
-          <div class="container-fluid py-5">
-            <h1 class=" display-5 fw-bold">Custom jumbotron</h1>
-            <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-            <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal">Example button</button>
-          </div>
-          <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <h4 class="modal-header">Este es el header</h4>
-                <div class="modal-body">Este es el body</div>
-                <div class="modal-footer">
-                  <button class="btn btn-outline-secondary" data-bs-dismiss="modal">Cerrar</button>
-                  <button class="btn btn-primary">Aceptar</button>
-                </div>
+      <section class="bg-light p-5 rounded-3 row">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+          <p class="col-md-8 fs-4">
+            Using a series of utilities, you can create this jumbotron, just
+            like the one in previous versions of Bootstrap. Check out the
+            examples below for how you can remix and restyle it to your liking.
+          </p>
+          <button
+            type="button"
+            class="btn btn-primary btn-lg"
+            data-bs-toggle="modal"
+            data-bs-target="#modal"
+          >
+            Example button
+          </button>
+        </div>
+        <div
+          class="modal fade"
+          id="modal"
+          tabindex="-1"
+          aria-labelledby="modal"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <h4 class="modal-header">Este es el header</h4>
+              <div class="modal-body">Este es el body</div>
+              <div class="modal-footer">
+                <button
+                  class="btn btn-outline-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Cerrar
+                </button>
+                <button class="btn btn-primary">Aceptar</button>
               </div>
             </div>
           </div>
+        </div>
       </section>
-      <section></section>
+      <section class="my-5 row p-5">
+        <form action="">
+          <div class="mb-3">
+            <label for="name" class="form-label">Nombre</label>
+            <input type="text" name="name" id="name" class="form-control" />
+          </div>
+          <div class="mb-3">
+            <label for="telefono" class="form-label" >Teléfono</label>
+            <input
+              type="number"
+              name="telefono"
+              id="telefono"
+              class="form-control"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="mensaje" class="form-label" >Mensaje</label>
+            <textarea
+              id="mensaje"
+              type="text"
+              class="form-control"
+              placeholder="Tu mensaje"
+            ></textarea>
+          </div>
+        </form>
+      </section>
       <section></section>
     </div>
   </body>
