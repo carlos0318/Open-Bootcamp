@@ -1,3 +1,5 @@
+@use "mixins";
+
 body {
     margin: 0;
     padding: 0;
@@ -12,11 +14,11 @@ body {
 
 h1 {
     margin: 0;
-    @include formato-texto();
+    @include mixins.formato-texto();
 }
 
 p {
-    @include formato-texto(#666666);
+    @include mixins.formato-texto(#666666);
 }
 
 .listado {
