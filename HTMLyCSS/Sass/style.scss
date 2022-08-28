@@ -1,47 +1,13 @@
-@mixin formato-texto($bg-color: #f1f1f1) {
-    width: 50rem;
-    color: $text-color;
-    text-transform: uppercase;
-    background-color: $bg-color;
-}
+// Componentes
+@import "sass/componentes";
 
-$text-color: #3b3b3b;
+// Mixins
+@import "sass/mixins";
 
-body {
-    margin: 0;
-    padding: 0;
-}
+// Estilos
+@import "sass/estilos";
 
-.container {
-    width: 100%;
-    background-color: azure;
-    min-height: 100vh;
-    padding: 0.5rem;
-}
-
-h1 {
-    margin: 0;
-    @include formato-texto();
-}
-
-p {
-    @include formato-texto(#666666);
-}
-
-.listado {
-    width: 10rem;
-    background-color: aquamarine;
-    padding: 0.5rem;
-
-    ul {
-        margin: 0 0.5rem;
-        
-        li {
-            list-style: none;
-
-            &:hover {
-                color: cyan;
-            }
-        }
-    }
-}
+// Paginas
+// página principal
+// página de contacto
+// página de aviso legal

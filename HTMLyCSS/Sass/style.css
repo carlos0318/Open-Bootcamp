@@ -1,3 +1,19 @@
+.btn, .btn-2 {
+  border: none;
+  padding: 0.25rem 0.5rem;
+  color: #2b2b2b;
+}
+.btn:hover, .btn-2:hover {
+  background-color: cyan;
+  color: red;
+  cursor: pointer;
+}
+
+.btn-2 {
+  margin: 0.5rem;
+  border-radius: 0.25rem;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -37,5 +53,5 @@ p {
   list-style: none;
 }
 .listado ul li:hover {
-  color: cyan;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
