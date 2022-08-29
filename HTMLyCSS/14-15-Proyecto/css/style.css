@@ -114,4 +114,31 @@ body {
   max-width: 7rem;
 }
 
+.sec-home {
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 5rem;
+  align-items: center;
+  justify-content: center;
+}
+.sec-home .home-cta {
+  flex: 1;
+}
+.sec-home .home-cta .cta-text {
+  color: #0075ff;
+}
+.sec-home .home-cta .home-title {
+  width: 20rem;
+  font-size: 3rem;
+}
+.sec-home .home-img {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=style.css.map */
